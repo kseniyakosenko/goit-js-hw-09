@@ -23,6 +23,7 @@ function onSubmitForm(e) {
       });
     delay += Number(formRef.step.value);
   }
+  formRef.reset();
 }
 
 // Create promise
